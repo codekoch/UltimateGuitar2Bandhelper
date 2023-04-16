@@ -1,7 +1,7 @@
 # Requirements
 - go is installed ("go version" should display the version)
 - node js is installed
-# Convert multiple tabs from Ultimate Guitar into ChordPro format and import the resulting tabs into Bandhelper (inspired by Bing using GPT4 ;-)) 
+# Convert multiple tabs from Ultimate Guitar into ChordPro format and import the resulting tabs into Bandhelper 
 1. Open https://www.ultimate-guitar.com/user/mytabs or any other website on Ultimate Guitar containing your favorites tabs
 2. Mouse Rightclick -> Inspect -> Console -> Enter the following code:
 ```JavaScript
@@ -50,6 +50,7 @@ awk '{print $2 }' all.txt > numbers.txt
 - https://github.com/Pilfer/ultimate-guitar-scraper (A Scraper for Ultimate Guitar tabs written in Go)
 - https://github.com/martijnversluis/ChordSheetJS (A JavaScript library for parsing and formatting chord sheets)
 
+#### This project was inspired by Bing using GPT4 ;-)) 
 
 ## Disclaimer / Legal  
 
