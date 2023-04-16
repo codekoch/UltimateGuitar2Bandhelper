@@ -32,7 +32,7 @@ awk '{print $2 }' all.txt > numbers.txt
 5. Run ```./Ultimate2Chord.sh``` script
 
 (This script does the following: 
-- scraping tab from Ultimate Guitar into ASCII File
+- scraping all tabs which match the numbers in ```numbers.txt``` from Ultimate Guitar into ASCII files 
 - convert tab format into ChrodPro format
 - deleting unneccessary characters like "-----" 
 - create zip of all tabs)
