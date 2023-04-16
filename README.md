@@ -30,11 +30,12 @@ awk '{print $2 }' all.txt > numbers.txt
 ```
 
 5. Run ```./Ultimate2Chord.sh``` script
-This script does the following: 
+
+(This script does the following: 
 - scraping tab from Ultimate Guitar into ASCII File
 - convert tab format into ChrodPro format
 - deleting unneccessary characters like "-----" 
-- create zip of all tabs
+- create zip of all tabs)
 6. Import the zip file into Bandhelper:
 - Log into the website and go to the Repertoire > Documents or Repertoire > Recordings page.
 - Click the Batch Import form at the top of the page, select your zip file and check the Add New Songs option.
