@@ -4,7 +4,7 @@
 # Convert tabs from Ultimate Guitar into ChordPro format and import the resulting tabs into Bandhelper (inspired by Bing using GPT4 ;-)) 
 1. Open https://www.ultimate-guitar.com/user/mytabs or any other website on Ultimate Guitar containing your favorites tabs
 2. Mouse Rightclick -> Inspect -> Console -> Enter the following code:
-'''
+```
 // Create a variable for the links 
 let links = document.querySelectorAll("a[href^='https://tabs.ultimate-guitar.com/tab/']");
 // A loop that iterates over the links 
@@ -16,7 +16,7 @@ for (let link of links) {
   // Output the number in the console 
   console.log(nummer);
 }
-'''
+```
 ![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-49-57.png)
 
 3. Copy the resulting numbers like "VM108:11 1689257" into ASCII File
