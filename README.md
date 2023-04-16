@@ -33,7 +33,7 @@ awk '{print $2 }' all.txt > numbers.txt
 
 (This script does the following: 
 - scraping all tabs which match the numbers in ```numbers.txt``` from Ultimate Guitar into ASCII files 
-- convert tab format into ChrodPro format
+- convert tab format into ChordPro format
 - deleting unneccessary characters like "-----" 
 - create zip of all tabs)
 6. Import the zip file into Bandhelper:
