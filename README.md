@@ -43,7 +43,7 @@ awk '{print $2 }' all.txt > numbers.txt
 
 ![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-51-35.png)
 
-#### Technology Used
+#### Used Gihub Projects 
 
 - https://github.com/Pilfer/ultimate-guitar-scraper (A Scraper for Ultimate Guitar tabs written in Go)
 - https://github.com/martijnversluis/ChordSheetJS (A JavaScript library for parsing and formatting chord sheets)
