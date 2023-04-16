@@ -24,8 +24,9 @@ for (let link of links) {
 
 
 4. Extract the interesting numbers in second column with 
+```ShellScript
 awk '{print $2 }' all.txt > numbers.txt
-
+```
 
 5. Run ./Ultimate2Chord.sh script
 (this script does the following: 
