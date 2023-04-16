@@ -36,7 +36,7 @@ awk '{print $2 }' all.txt > numbers.txt
 - convert tab format into ChordPro format
 - deleting unneccessary characters like "-----" 
 - create zip of all tabs)
-6. Import the zip file into Bandhelper:
+6. Import the zipped file into Bandhelper:
 - Log into the website and go to the Repertoire > Documents or Repertoire > Recordings page.
 - Click the Batch Import form at the top of the page, select your zip file and check the Add New Songs option.
 - Click Submit. This will upload all the files, which could take several minutes depending on your Internet connection.  
