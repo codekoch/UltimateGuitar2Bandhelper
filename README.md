@@ -29,8 +29,8 @@ The result should be similiar to this...
 awk '{print $2 }' all.txt > numbers.txt
 ```
 
-5. Run ./Ultimate2Chord.sh script
-(this script does the following: 
+5. Run ```./Ultimate2Chord.sh``` script
+This script does the following: 
 - scraping tab from Ultimate Guitar into ASCII File
 - convert tab format into ChrodPro format
 - deleting unneccessary characters like "-----" 
