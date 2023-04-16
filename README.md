@@ -5,6 +5,7 @@
 1. Open https://www.ultimate-guitar.com/user/mytabs or any other website on Ultimate Guitar containing your favorites tabs
 2. Mouse Rightclick -> Inspect -> Console -> Enter the following code:
 
+
 // Create a variable for the links 
 let links = document.querySelectorAll("a[href^='https://tabs.ultimate-guitar.com/tab/']");
 
@@ -19,11 +20,11 @@ for (let link of links) {
 }
 ![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-49-57.png)
 3. Copy the resulting numbers like "VM108:11 1689257" into ASCII File
-
 4. Extract the interesting numbers in second column with 
 awk '{print $2 }' all.txt > numbers.txt
 
-5. Run ./Ultimate2Chord.sh script 
+
+5. Run ./Ultimate2Chord.sh script
 (this script does the following: 
 - scraping tab from Ultimate Guitar into ASCII File
 - convert tab format into ChrodPro format
