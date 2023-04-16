@@ -21,6 +21,8 @@ for (let link of links) {
 ![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-49-57.png)
 3. Copy the resulting numbers like "VM108:11 1689257" into ASCII File
 
+
+
 4. Extract the interesting numbers in second column with 
 awk '{print $2 }' all.txt > numbers.txt
 
