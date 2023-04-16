@@ -17,7 +17,7 @@ for (let link of links) {
   // Output the number in the console 
   console.log(nummer);
 }
-
+![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-49-57.png)
 3. Copy the resulting numbers like "VM108:11 1689257" into ASCII File
 4. Extract the interesting numbers in second column with 
 awk '{print $2 }' all.txt > numbers.txt
@@ -32,10 +32,10 @@ awk '{print $2 }' all.txt > numbers.txt
 - Click the Batch Import form at the top of the page, select your zip file and check the Add New Songs option.
 - Click Submit. This will upload all the files, which could take several minutes depending on your Internet connection.  
 
-![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-49-57.png)
+7. Done!
+
 ![alt text](https://github.com/codekoch/UltimateGuitar2Bandhelper/blob/b1d0a4c667b02df1727d1f99e7c7f7565631e2db/Bildschirmfoto%20vom%202023-04-16%2011-51-35.png)
 
-7. Done!
 #### Technology Used
 
 - https://github.com/Pilfer/ultimate-guitar-scraper (A Scraper for Ultimate Guitar tabs written in Go)
